@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = CoreExtensions::VERSION
   gem.authors       = ['Sarkis Karayan']
   gem.email         = ['skarayan@gmail.com']
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = 'Ruby Core Object Extensions'
+  gem.summary       = 'Ruby Core Object Extensions'
+  gem.homepage      = 'https://github.com/skarayan/core_extensions'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
